@@ -34,7 +34,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: malipan/demo-app
-        registry: registry-url.io
+        registry: docker.io
         username: malipan
         password: BaaadySys@23
 
