@@ -35,8 +35,8 @@ jobs:
       with:
         image: malipan/demo-app
         registry: registry-url.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: malipan
+        password: BaaadySys@23
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
